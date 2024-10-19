@@ -32,3 +32,29 @@ a {
 img {
   width: 100%;
 }
+
+/*link size change*/
+
+.footer__social-link {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.footer__social-link:hover {
+  transform: scale(1.2);
+}
+
+/*link color change*/
+a {
+  transition: color 0.3s ease;
+  color: #000;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/*smooth scroll*/
+
+html {
+  scroll-behavior: smooth;
+}
