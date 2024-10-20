@@ -12,6 +12,9 @@
 
 address {
   font-style: normal;
+  line-height: 25px;
+  letter-spacing: 0.18px;
+  max-width: 240px;
 }
 
 /*Header*/
@@ -56,7 +59,7 @@ address {
 
 .header__logo {
   padding-left: 40px;
-  padding-right: 190px;
+  padding-right: 188px;*/
 }
 
 .header__logo-image {
@@ -65,11 +68,6 @@ address {
 
 }
 
-.header__adress {
-  line-height: 25px;
-  letter-spacing: 0.18px;
-
-}
 
 /*Cover*/
 
@@ -134,6 +132,7 @@ address {
 
 .bet-button {
   color: #FFF;
+  font-family: Raleway, sans-serif;
   border: 1px solid #fff;
   background: transparent;
   text-align: center;
@@ -172,6 +171,7 @@ address {
   min-height: 563px;
   color: #FFF;
   position: relative;
+  flex-grow: 1
 }
 
 .card {
